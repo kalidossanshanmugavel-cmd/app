@@ -27,5 +27,5 @@ app.include_router(student_router)
 @app.get("/")
 def home():
     return {
-        "message": "FastAPI JWT Authentication is running"
+        "message": "FastAPI is running"
     }
